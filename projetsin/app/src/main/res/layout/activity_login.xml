@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="#048B9A"
+    android:orientation="vertical">
+
+    <EditText
+    android:id="@+id/ip_adress"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="IPadress:Port"
+    android:background="#425B8A"
+    android:textColor="#FFFFFF"
+    android:layout_marginTop="15dp"
+    android:padding="5dp"
+    />
+
+    <Button
+        android:id="@+id/continuer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:padding="15dp"
+        android:text="@string/continuer"
+        android:background="#425B8A"
+        android:textColor="#FFFFFF"
+
+        />
+
+</LinearLayout>

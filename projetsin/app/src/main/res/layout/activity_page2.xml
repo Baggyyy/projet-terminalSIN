@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#048B9A">
+
+    <Button
+        android:id="@+id/automatique"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Mode Automatique"
+        android:layout_weight="3"
+        android:layout_marginTop="15dp"
+        android:textColor="#FFFFFF"
+        android:background="#425B8A"/>
+    <Button
+        android:id="@+id/manuel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:text="Mode Manuel"
+        android:layout_weight="3"
+        android:layout_marginBottom="15dp"
+        android:textColor="#FFFFFF"
+        android:background="#425B8A"
+
+        />
+
+</LinearLayout>

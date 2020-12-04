@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#048B9A">
+
+    <TextView
+        android:id="@+id/bienvenue"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="Bienvenue"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"/>
+
+
+    <Button
+        android:id="@+id/continuer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_weight="5"
+        android:text="Continuer"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:background="#425B8A"
+        />
+
+</LinearLayout>

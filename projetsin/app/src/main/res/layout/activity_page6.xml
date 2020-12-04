@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#048B9A"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="Eclairage"
+        android:textColor="#FFFFFF"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:layout_marginTop="10dp"
+        android:textSize="17sp"
+        android:text="Allumer la lumière"
+        android:textColor="#FFFFFF"
+        android:background="#425B8A"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:layout_marginTop="10dp"
+        android:textSize="17sp"
+        android:text="Eteindre la lumière"
+        android:textColor="#FFFFFF"
+        android:background="#425B8A"
+        />
+    <Button
+        android:id="@+id/retour4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Retour"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#FFFFFF"
+        android:background="#425B8A"
+        />
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">projet sin</string>
+    <string name="lumi_re">Lumière</string>
+    <string name="auto_manuel">Auto/Manuel</string>
+    <string name="tv">TV</string>
+    <string name="volets">Volets</string>
+    <string name="alarme">Alarme</string>
+    <string name="todo">TODO</string>
+    <string name="textview">TextView</string>
+    <string name="bienvenue">Bienvenue sur Over-Watch</string>
+    <string name="continuer">Continuer</string>
+    <string name="mode_automatique">mode automatique</string>
+    <string name="mode_manuel">Mode manuel</string>
+    <string name="clairage">éclairage</string>
+</resources>

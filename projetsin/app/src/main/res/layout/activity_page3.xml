@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#048B9A">
+
+    <Button
+        android:id="@+id/volets"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:layout_marginTop="15dp"
+        android:text="Volets"
+        android:textSize="17sp"
+        android:background="#425B8A"
+        android:textColor="#FFFFFF"/>
+    <Button
+        android:id="@+id/panneau"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:layout_marginTop="10dp"
+        android:text="Panneau LED"
+        android:textSize="17sp"
+        android:background="#425B8A"
+        android:textColor="#FFFFFF"/>
+    <Button
+        android:id="@+id/eclairage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:layout_marginTop="10dp"
+        android:text="Eclairage"
+        android:textSize="17sp"
+        android:background="#425B8A"
+        android:textColor="#FFFFFF"/>
+    <Button
+        android:id="@+id/alarme"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Alarme"
+        android:textSize="17sp"
+        android:background="#425B8A"
+        android:textColor="#FFFFFF"/>
+    <Button
+        android:id="@+id/retour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:text="Retour"
+        android:textSize="15sp"
+        android:background="#425B8A"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
